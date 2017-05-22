@@ -6,15 +6,11 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <script src="bower_components/angular/angular.js"></script>
     <script src="app.js"></script>
+    <script src="loc-list.component.js"></script>
   </head>
-  <body ng-controller="LocListController">
-
-	  <ul> <!-- Location = loc -->
-	    <li ng-repeat="loc in locs">
-	      <span>{{loc.name}}</span>
-	      <p>{{loc.address}}</p>
-	    </li>
-	  </ul>
-
+  <body>
+	
+	<loc-list></loc-list>
+	  
   </body>
 </html>
