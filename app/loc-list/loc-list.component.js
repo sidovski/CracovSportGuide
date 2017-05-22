@@ -1,13 +1,7 @@
 angular.
-  module('sportguideApp').
+  module('locList').
   component('locList', {
-    template:
-        '<ul>' +
-          '<li ng-repeat="loc in $ctrl.locs">' +
-            '<span>{{loc.name}}</span>' +
-            '<p>{{loc.address}}</p>' +
-          '</li>' +
-        '</ul>',
+    templateUrl: 'loc-list/loc-list.template.html',    
     controller: function LocListController() {
       this.locs = [
         {
