@@ -1,17 +1,18 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="sportguideApp">
   <head>
     <meta charset="utf-8">
     <title>CracowSportGuide</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <script src="bower_components/angular/angular.js"></script>
+    <script src="app.js"></script>
   </head>
   <body ng-controller="LocListController">
 
 	  <ul> <!-- Location = loc -->
 	    <li ng-repeat="loc in locs">
 	      <span>{{loc.name}}</span>
-	      <p>{{loc.snippet}}</p>
+	      <p>{{loc.address}}</p>
 	    </li>
 	  </ul>
 
