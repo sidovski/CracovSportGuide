@@ -1,6 +1,22 @@
-<ul>
-          <li ng-repeat="loc in $ctrl.locs">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="$ctrl.query" />
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class=locations>
+          <li ng-repeat="loc in $ctrl.locs | filter:$ctrl.query">
             <span>{{loc.name}}</span>
             <p>{{loc.address}}</p>
           </li>
-</ul>
+	  </ul>
+
+    </div>
+  </div>
+</div>
