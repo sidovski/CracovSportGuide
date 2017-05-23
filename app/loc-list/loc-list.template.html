@@ -1,22 +1,32 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
-      <!--Sidebar content-->
+<div class="col-md-12">
+  	<div class="col-md-4"></div>
+	    <div class="col-md-4 search">
+	    <div class="jumbotron">
+	      <input ng-model="$ctrl.query" placeholder="Search..." />
+	      </div>
+	    </div>
+	<div class="col-md-4"></div>
+</div>	
 
-      Search: <input ng-model="$ctrl.query" />
-
-    </div>
-    <div class="col-md-10">
+    
       <!--Body content-->
-
-      <ul class=locations>
+      <ul ng-show="$ctrl.query" class="locations col-md-12">
+      
           <li ng-repeat="loc in $ctrl.locs | filter:$ctrl.query">
+          
+          <div class="col-md-4 col-sm-6">
+            <div class="jumbotron text-center">
             <span>{{loc.name}}</span>
             <p>{{loc.address}}</p>
+            </div>
+             
+             </div>
           </li>
+         
 	  </ul>
-
-    </div>
+    
   </div>
 </div>
