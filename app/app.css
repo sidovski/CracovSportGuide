@@ -1,16 +1,44 @@
-body {
-	padding-top: 70px;
-}
-
 ul {
 	list-style-type:none;
 }
 
 .jumbotron {
 	padding: 5px;
+	vertical-align: center;
+}
+.list {
+	line-height: 25px;
 }
 
 input{
 	width: 100%;
 	padding: 10px;
+}
+
+.row {
+	/*background: url(bgrnd.jpg);*/
+	background-color: #343434;
+	height: 300px;
+
+}
+.col-md-4 {
+	padding-top: 140px;
+}
+#som .col-md-4 {
+	padding-top: 15px;
+}
+.pic-col {
+	vertical-align: center;
+	width: 180px;
+}
+img {
+	width: 150px;
+	padding: 10px;
+
+}
+
+.results {
+	padding-top: 0px;
+	vertical-align: center;
+	margin-top: 0px;
 }

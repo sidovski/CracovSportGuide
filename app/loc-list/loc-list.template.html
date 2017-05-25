@@ -1,32 +1,37 @@
 
 <div class="container-fluid">
   <div class="row">
-<div class="col-md-12">
-  	<div class="col-md-4"></div>
-	    <div class="col-md-4 search">
-	    <div class="jumbotron">
-	      <input ng-model="$ctrl.query" placeholder="Search..." />
-	      </div>
-	    </div>
-	<div class="col-md-4"></div>
-</div>	
-
-    
-      <!--Body content-->
-      <ul ng-show="$ctrl.query" class="locations col-md-12">
-      
+    <div class="col-md-12">
+      	<div class="col-md-4"></div>
+    	    <div class="col-md-4">
+      	    <div class="jumbotron">
+      	      <input ng-model="$ctrl.query" placeholder="Search..." />
+      	    </div>
+    	   </div>
+    	<div class="col-md-4"></div>
+  </div>
+  </div>
+  <div class="results" id="som">
+      <div class="col-md-12">
+          <div class="col-md-4 s"></div>
+      <ul ng-show="$ctrl.query"  class="col-md-4 s">
           <li ng-repeat="loc in $ctrl.locs | filter:$ctrl.query">
-          
-          <div class="col-md-4 col-sm-6">
-            <div class="jumbotron text-center">
-            <span>{{loc.name}}</span>
-            <p>{{loc.address}}</p>
-            </div>
-             
-             </div>
+              <div class="list">
+                <table>
+                  <tr>
+                    <td class="pic-col">
+                      <img src="{{loc.pic}}"/>
+                    </td>
+                    <td>
+                      <span><h2>{{loc.name}}</h2></span>
+                      <p>{{loc.address}}</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
           </li>
-         
-	  </ul>
-    
+      </ul>
+      <div class="col-md-4 s"></div>
+    </div>
   </div>
 </div>
