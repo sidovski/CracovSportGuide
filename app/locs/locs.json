@@ -19,17 +19,41 @@
      {
       "name": "72D",
       "address": "Zakopianska 72D",
-      "tags": ["cross fit","gym","trx","weightlifting","sauna", "massage","personal trainings"],
+      "tags": ["cross fit","gym","trx"," weightlifting","sauna", "massage","personal trainings"],
       "pic": "7d.jpg"
     },
      {
       "name": "Fitness Platinium",
       "address": "Mogilska 97",
-      "tags": ["cross fit","gym","trx","weightlifting","sauna", "basen", "massage","personal trainings"]
+      "tags": ["cross fit","gym","trx"," weightlifting","sauna", "basen", "massage","personal trainings"]
     },
     {
       "name": "Fitness Platinium",
       "address": "Aleja Pokoju 44",
-      "tags": ["cross fit","gym","trx","weightlifting","sauna", "basen", "massage","personal trainings"]
+      "tags": ["cross fit","gym","trx"," weightlifting","sauna", "basen", "massage","personal trainings"]
+    },
+     {
+      "name": "Basen Uniwersytetu Ekonomicznego",
+      "address": "Rakowicka 27",
+      "tags": ["swimming","swimming poll","sauna"],
+      "pic": "loca.jpg"
+    },
+     {
+      "name": "Cross Fit Reymonta",
+      "address": "Reymonta 22",
+      "tags": ["WEIGHTLIFTING","mobility","cross fit", "boks","personal trainings"],
+      "pic": "loca.jpg"
+    },
+    {
+      "name": "Squash 4 you",
+      "address": "Księcia Józefa 54a",
+      "tags": ["Squash","kids","", "","",""],
+      "pic": "?.jpg"
+    },
+    {
+      "name": "Gym Park",
+      "address": "Zabłocie 20-22",
+      "tags": ["MMA","Zumba","Fitness", "Step","Pilates","Boks", "personal trainings","gym", "cross fit"],
+      "pic": "loca.jpg"
     }
 ]
