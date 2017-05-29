@@ -20,16 +20,26 @@ input{
 }
 
 .row {
-	/*background: url(bgrnd.jpg);*/
-	background-color: #343434;
+	/*background: url(https://pixabay.com/get/ef36b40628f21c22d9584518a349429ee673e7d304b0154890f9c970a0e5bd/runners-635906_1920.jpg);*/
+	background-color: black;
 	height: 300px;
+}
+footer {
 
+	background-color: #343434;
+	color: #FFFFFF;
+	height: 30px;
+	font-family: Arial;
+	font-size: 11px;
+	padding-top: 10px;
+	text-align: center;
 }
 .col-md-4 {
 	padding-top: 140px;
 }
 #som .col-md-4 {
 	padding-top: 15px;
+	padding-bottom: 20px;
 }
 .pic-col {
 	vertical-align: center;
