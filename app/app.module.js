@@ -1,4 +1,5 @@
-'use strict';
 angular.module('sportguideApp', [
+  'ngRoute',
+  'locDetail',
   'locList'
 ]);

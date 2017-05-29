@@ -1,0 +1,26 @@
+{
+  "title":"Cross Fit Reymonta",
+  "address":"Reymonta 22",
+
+  "additionalInfo": "Cross fit center.",
+  
+  "workingtime": {
+    "monfri": "7:00-10:00; 16:00-22:00",
+    "satsun": "10:00-19:00"
+  },
+    "maps": {
+    "w": "50.06592329999999",
+    "h": "19.909999999999968"
+  },
+  "images": [
+    "img/locs/comarch.0.jpeg",
+    "img/locs/comarch.1.jpg",
+    "img/locs/comarch.2.jpg",
+    "img/locs/comarch.3.jpg"
+  ],
+
+  "prices": [
+    "classes 25 zl / 55 min",
+    
+  ]
+}

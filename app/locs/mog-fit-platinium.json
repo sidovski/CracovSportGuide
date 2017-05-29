@@ -1,0 +1,30 @@
+{
+  "title":"Fitness Platinium",
+  "address":"Mogilska 97",
+
+  "additionalInfo": "Big gym :)",
+  
+  "workingtime": {
+    "monfri": "7:00-10:00; 16:00-22:00",
+    "satsun": "10:00-19:00"
+  },
+  
+  "maps": {
+    "w": "50.066404",
+    "h": "19.974931999999967"
+  },
+
+
+  "images": [
+    "img/locs/comarch.0.jpeg",
+    "img/locs/comarch.1.jpg",
+    "img/locs/comarch.2.jpg",
+    "img/locs/comarch.3.jpg"
+  ],
+
+  "prices": [
+    "sauna 15zl / 60 min",
+    "gym 15zl / 60 min",
+    "classes 25 zl / 55 min"
+  ]
+}

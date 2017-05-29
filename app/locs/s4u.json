@@ -1,0 +1,28 @@
+{
+  "title":"Squash 4 you",
+  "address":"Księcia Józefa 54a",
+
+  "additionalInfo": "The best place for Squash!",
+  
+  "workingtime": {
+    "monfri": "7:00-10:00; 16:00-22:00",
+    "satsun": "10:00-19:00"
+  },
+
+  "maps": {
+    "w": "50.047065",
+    "h": "19.88894460000006"
+  },
+
+  "images": [
+    "img/locs/comarch.0.jpeg",
+    "img/locs/comarch.1.jpg",
+    "img/locs/comarch.2.jpg",
+    "img/locs/comarch.3.jpg"
+  ],
+
+  "prices": [
+    "classes 25 zl / 55 min",
+    "one enter 30 zlŚ"
+  ]
+}

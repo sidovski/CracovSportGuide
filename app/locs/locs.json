@@ -1,58 +1,69 @@
 [
   {
+      "id": "comarch-basen",
       "name": "Comarch Basen",
       "address": "prof. Michała Życzkowskiego 29a",
       "tags": ["Swimming","gym","sauna"],
       "pic": "loca.jpg"
     },  {
+      "id": "fppawia",
       "name": "Fitness Platinium",
       "address": "Pawia 5, Galeria Krakowska",
       "tags": ["cardio machines","gym","sauna","workout","functional training","fitness"],
       "pic": "loca.jpg"
     },
      {
+      "id": "jatomiszlak",
       "name": "Jatomi Fitness",
       "address": "Angel City, Szlak 77",
       "tags": ["cardio machines","gym","fitness classes", "yoga","cycling","zumba"],
       "pic": "loca.jpg"
     },
      {
+      "id": "72d",
       "name": "72D",
       "address": "Zakopianska 72D",
       "tags": ["cross fit","gym","trx"," weightlifting","sauna", "massage","personal trainings"],
       "pic": "7d.jpg"
     },
      {
+      "id": "fpmog",
       "name": "Fitness Platinium",
       "address": "Mogilska 97",
-      "tags": ["cross fit","gym","trx"," weightlifting","sauna", "basen", "massage","personal trainings"]
-      "pic": "loca.jpg"
+      "tags": ["cross fit","gym","trx","weightlifting","sauna", "basen", "massage","personal trainings"],
+      "pic": "7d.jpg"
+
     },
     {
+      "id": "fppok",
       "name": "Fitness Platinium",
       "address": "Aleja Pokoju 44",
-      "tags": ["cross fit","gym","trx"," weightlifting","sauna", "basen", "massage","personal trainings"]
-      "pic": "loca.jpg"
+      "tags": ["cross fit","gym","trx","weightlifting","sauna", "basen", "massage","personal trainings"],
+      "pic": "7d.jpg"      
     },
      {
+      "id": "buek",
       "name": "Basen Uniwersytetu Ekonomicznego",
       "address": "Rakowicka 27",
       "tags": ["swimming","swimming poll","sauna"],
       "pic": "loca.jpg"
     },
      {
+      "id": "cfitr",
       "name": "Cross Fit Reymonta",
       "address": "Reymonta 22",
       "tags": ["WEIGHTLIFTING","mobility","cross fit", "boks","personal trainings"],
       "pic": "loca.jpg"
     },
     {
+      "id": "s4u",
       "name": "Squash 4 you",
       "address": "Księcia Józefa 54a",
-      "tags": ["Squash","kids","", "","",""],
+      "tags": ["Squash","kids"],
       "pic": "loca.jpg"
     },
     {
+      "id": "gymp",
       "name": "Gym Park",
       "address": "Zabłocie 20-22",
       "tags": ["MMA","Zumba","Fitness", "Step","Pilates","Boks", "personal trainings","gym", "cross fit"],

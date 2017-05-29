@@ -1,0 +1,40 @@
+<img ng-src="{{$ctrl.loc.images[0]}}" class="loc" />
+
+<h1>{{$ctrl.loc.title}}</h1>
+
+<p>{{$ctrl.loc.address}}</p>
+
+<ul class="loc-thumbs">
+  <li ng-repeat="img in $ctrl.loc.images">
+    <img ng-src="{{img}}" />
+  </li>
+</ul>
+
+<ul class="specs">
+   <li>
+    <span>Additional Info</span>
+    <dd>{{$ctrl.loc.additionalInfo}}</dd>
+  </li>
+  <li>
+    <span>Working time</span>
+    <dl>
+      <dt>monday-friday</dt>
+      <dd>{{$ctrl.loc.workingtime.monfri}}</dd>
+      <dt>saturday-sunday</dt>      
+      <dd>{{$ctrl.loc.workingtime.satsun}}</dd>
+    </dl>
+  </li>
+  <li>
+ 
+    <span>Price list</span>
+
+    
+
+  </li>
+</ul>
+
+<ul>
+      <li ng-repeat="price in $ctrl.loc.prices">
+        <p ng-src="{{price}}"></p>
+      </li>
+    </ul>

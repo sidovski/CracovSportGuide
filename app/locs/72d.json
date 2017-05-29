@@ -1,0 +1,29 @@
+{
+  "title":"72D",
+  "address":"Zakopianska 72D",
+
+  "additionalInfo": "Cross fit",
+  
+  "workingtime": {
+    "monfri": "7:00-10:00; 16:00-22:00",
+    "satsun": "10:00-19:00"
+  },
+  
+  "maps": {
+    "w": "50.0102143",
+    "h": "19.926892500000008"
+  },
+
+  "images": [
+    "img/locs/comarch.0.jpeg",
+    "img/locs/comarch.1.jpg",
+    "img/locs/comarch.2.jpg",
+    "img/locs/comarch.3.jpg"
+  ],
+
+  "prices": [
+    "sauna 15zl / 60 min",
+    "gym 15zl / 60 min",
+    "classes 25 zl / 55 min"
+  ]
+}

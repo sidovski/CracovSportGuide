@@ -1,0 +1,29 @@
+{
+  "title":"Gym Park",
+  "address":"Zabłocie 20-22",
+
+  "additionalInfo": "Fitness center",
+  
+  "workingtime": {
+    "monfri": "7:00-10:00; 16:00-22:00",
+    "satsun": "10:00-19:00"
+  },
+  
+  "maps": {
+    "w": "50.0498768",
+    "h": "19.966306900000063"
+  },
+
+
+  "images": [
+    "img/locs/comarch.0.jpeg",
+    "img/locs/comarch.1.jpg",
+    "img/locs/comarch.2.jpg",
+    "img/locs/comarch.3.jpg"
+  ],
+
+  "prices": [
+    "gym 15zl / 60 min",
+    "classes 25 zl / 55 min"
+  ]
+}
