@@ -4,7 +4,7 @@ angular.
   module('sportguideApp').
   config(['$locationProvider', '$routeProvider',
     function config($locationProvider, $routeProvider) {
-      $locationProvider.hashPrefix('!');
+     
 
       $routeProvider.
         when('/locs', {
@@ -12,6 +12,10 @@ angular.
         }).
         when('/locs/:locId', {
           template: '<loc-detail></loc-detail>'
+        }).
+        when('/events', {
+          templateUrl: 'events.html',
+          controller:'EventsCtrl'
         }).
         otherwise('/locs');
     }

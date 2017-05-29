@@ -23,11 +23,11 @@
   ],
 
   "prices": [
-    "basen 15zl / 60 min",
-    "sauna 15zl / 60 min",
-    "gym 15zl / 60 min",
-    "basen + sauna 20zl / 60 min",
-    "sauna + sauna + gym 30zl / unlimit entrance",
-    "krioterapi 35zl / person (min 8 person in group)"
+    "basen: 15zl / 60 min",
+    "sauna: 15zl / 60 min",
+    "gym: 15zl / 60 min",
+    "basen + sauna: 20zl / 60 min",
+    "sauna + sauna + gym: 30zl / unlimit entrance",
+    "krioterapi: 35zl / person (min 8 person in group)"
   ]
 }
