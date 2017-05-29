@@ -1,0 +1,27 @@
+{
+  "title":"Comarch Basen",
+  "address":"Jana Pawła II 41G",
+
+  "additionalInfo": "The best basen ever and ever and ever",
+  
+  "workingtime": {
+    "monfri": "7:00-10:00; 16:00-22:00",
+    "satsun": "10:00-19:00"
+  },
+
+  "images": [
+    "img/locs/comarch.0.jpeg",
+    "img/locs/comarch.1.jpg",
+    "img/locs/comarch.2.jpg",
+    "img/locs/comarch.3.jpg"
+  ],
+
+  "prices": [
+    "basen 15zl / 60 min",
+    "sauna 15zl / 60 min",
+    "gym 15zl / 60 min",
+    "basen + sauna 20zl / 60 min",
+    "sauna + sauna + gym 30zl / unlimit entrance",
+    "krioterapi 35zl / person (min 8 person in group)"
+  ]
+}

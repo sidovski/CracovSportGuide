@@ -6,19 +6,23 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="app.css">
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
     <script src="loc-list/loc-list.module.js"></script>
     <script src="loc-list/loc-list.component.js"></script>
-    <script>
+    <script src="loc-detail/loc-detail.module.js"></script>
+    <script src="loc-detail/loc-detail.component.js"></script>
+    <!-- <script>
     	$(document).ready(function(){
     		$("navbar-toggle collapsed").click(function(){
     			$(this).tab('show');
     		});
     	});
-    </script>
+    </script> -->
   </head>
   <body>
-	<nav class="navbar navbar-fixed-top navbar-inverse">
+<!-- <nav class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -35,12 +39,14 @@
         <li><a href="#events">Events</a></li>
         <li><a href="#about">About us</a></li>
       </ul>
-    </div><!-- /.nav-collapse -->
-  </div><!-- /.container -->
-</nav>
+    </div>
+  </div>
+</nav> -->
 
 
-	<loc-list></loc-list>
+	<ng-view></ng-view>
 	  
+    <hr>
+
   </body>
 </html>

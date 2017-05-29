@@ -1,3 +1,7 @@
+h1 {
+  border-bottom: 1px solid gray;
+}
+
 ul {
 	list-style-type:none;
 }
@@ -41,4 +45,51 @@ img {
 	padding-top: 0px;
 	vertical-align: center;
 	margin-top: 0px;
+}
+
+.locs {
+  list-style: none;
+}
+
+.locs li {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
+}
+
+.thumb {
+  float: left;
+  height: 100px;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  width: 100px;
+}
+
+.loc {
+  background-color: white;
+  border: 1px solid black;
+  float: left;
+  height: 400px;
+  margin-bottom: 2em;
+  margin-right: 3em;
+  padding: 2em;
+  width: 400px;
+}
+
+.loc-thumbs {
+  list-style: none;
+  margin: 0;
+}
+
+.loc-thumbs img {
+  height: 100px;
+  padding: 1em;
+  width: 100px;
+}
+
+.loc-thumbs li {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1em;
 }
