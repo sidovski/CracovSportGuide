@@ -1,13 +1,14 @@
 {
-  "name": "angular-phonecat",
+  "name": "angular-loc",
   "description": "A starter project for AngularJS",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-phonecat",
+  "homepage": "https://github.com/sidovski/CracovSportGuide",
   "license": "MIT",
   "private": true,
   "dependencies": {
     "angular": "1.5.x",
     "angular-mocks": "1.5.x",
+    "angular-route": "1.5.x",
     "bootstrap": "3.3.x"
   }
 }

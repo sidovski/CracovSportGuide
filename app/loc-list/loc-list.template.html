@@ -1,6 +1,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
+
         <div class="col-md-4"></div>
           <div class="col-md-4">
             <div class="jumbotron">
@@ -8,14 +9,20 @@
             </div>
          </div>
       <div class="col-md-4"></div>
+
   </div>
   </div>
   <div class="results" id="som">
       <div class="col-md-12">
           <div class="col-md-4 s"></div>
-      <ul ng-show="$ctrl.query"  class="col-md-4 s">
-          <li ng-repeat="loc in $ctrl.locs | filter:$ctrl.query">
-              <div class="list">
+      <ul ng-show="$ctrl.query"  class="col-md-4 locs">
+          <li ng-repeat="loc in $ctrl.locs | filter:$ctrl.query" class="thumbnail">
+          <a href="#!/locs/{{loc.id}}" class="thumb">
+           <img ng-src="{{loc.pic}}" alt="{{loc.name}}" />
+   		  </a>
+   		  <a href="#!/locs/{{loc.id}}">{{loc.name}}</a>
+    		<p>{{loc.address}}</p>
+              <!-- <div class="list">
                 <table>
                   <tr>
                     <td class="pic-col">
@@ -27,7 +34,7 @@
                     </td>
                   </tr>
                 </table>
-              </div>
+              </div> -->
           </li>
       </ul>
       <div class="col-md-4 s"></div>
