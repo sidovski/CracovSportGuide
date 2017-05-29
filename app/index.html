@@ -13,16 +13,33 @@
     <script src="loc-list/loc-list.component.js"></script>
     <script src="loc-detail/loc-detail.module.js"></script>
     <script src="loc-detail/loc-detail.component.js"></script>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1897770650477170',
+      xfbml      : true,
+      version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     <!-- <script>
-    	$(document).ready(function(){
-    		$("navbar-toggle collapsed").click(function(){
-    			$(this).tab('show');
-    		});
-    	});
+      $(document).ready(function(){
+        $("navbar-toggle collapsed").click(function(){
+          $(this).tab('show');
+        });
+      });
     </script> -->
   </head>
   <body>
-<!-- <nav class="navbar navbar-fixed-top navbar-inverse">
+<nav class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -37,21 +54,18 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#events">Events</a></li>
-        <li><a href="#about">About us</a></li>
       </ul>
     </div>
   </div>
-</nav> -->
+</nav>
 
 
 
-	<ng-view></ng-view>
-	  
+  <ng-view></ng-view>
+    
     <hr>
 
-
-	<loc-list></loc-list>
-	<footer class="navbar-fixed-bottom">
+  <footer class="navbar-fixed-bottom">
       <p>Kateryna Myrshavka & Artem Blyzniakov
       <span class="glyphicon glyphicon-copyright-mark"></span>
       CracovSportGuide 2017</p>

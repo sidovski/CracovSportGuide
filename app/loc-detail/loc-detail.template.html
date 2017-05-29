@@ -35,6 +35,35 @@
 
 <ul>
       <li ng-repeat="price in $ctrl.loc.prices">
-        <p ng-src="{{price}}"></p>
+        <span>{{price}}</span>
       </li>
     </ul>
+  <div id="google-maps">
+      <!-- // <script> 
+        function myMap() {
+        var mapProp= {
+            center:new google.maps.LatLng({{$ctrl.loc.maps.w}},{{$ctrl.maps.h}}),
+            zoom:5,
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3ahLWXPI3CXnoqo2HHGmt6t_SetxBQ1Y&callback=myMap"></script>
+-->
+        <script>
+      function initMap() {
+        var uluru = {lat: {{$ctrl.loc.maps.w}}, lng: {{$ctrl.maps.h}}};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3ahLWXPI3CXnoqo2HHGmt6t_SetxBQ1Y&callback=initMap">
+    </script>
+  </div>
