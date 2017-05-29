@@ -17,10 +17,10 @@
           <div class="col-md-4 s"></div>
       <ul ng-show="$ctrl.query"  class="col-md-4 locs">
           <li ng-repeat="loc in $ctrl.locs | filter:$ctrl.query" class="thumbnail">
-          <a href="#!/locs/{{loc.id}}" class="thumb">
+          <a href="#/locs/{{loc.id}}" class="thumb">
            <img ng-src="{{loc.pic}}" alt="{{loc.name}}" />
    		  </a>
-   		  <a href="#!/locs/{{loc.id}}">{{loc.name}}</a>
+   		  <a href="#/locs/{{loc.id}}">{{loc.name}}</a>
     		<p>{{loc.address}}</p>
               <!-- <div class="list">
                 <table>

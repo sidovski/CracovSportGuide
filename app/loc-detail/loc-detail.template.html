@@ -1,4 +1,4 @@
-<img ng-src="{{$ctrl.loc.images[0]}}" class="loc" />
+<img ng-src="{{$ctrl.mainImageUrl}}" class="loc" />
 
 <h1>{{$ctrl.loc.title}}</h1>
 
@@ -6,7 +6,7 @@
 
 <ul class="loc-thumbs">
   <li ng-repeat="img in $ctrl.loc.images">
-    <img ng-src="{{img}}" />
+    <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)"/>
   </li>
 </ul>
 
