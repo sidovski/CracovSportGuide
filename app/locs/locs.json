@@ -26,11 +26,13 @@
       "name": "Fitness Platinium",
       "address": "Mogilska 97",
       "tags": ["cross fit","gym","trx"," weightlifting","sauna", "basen", "massage","personal trainings"]
+      "pic": "loca.jpg"
     },
     {
       "name": "Fitness Platinium",
       "address": "Aleja Pokoju 44",
       "tags": ["cross fit","gym","trx"," weightlifting","sauna", "basen", "massage","personal trainings"]
+      "pic": "loca.jpg"
     },
      {
       "name": "Basen Uniwersytetu Ekonomicznego",
@@ -48,7 +50,7 @@
       "name": "Squash 4 you",
       "address": "Księcia Józefa 54a",
       "tags": ["Squash","kids","", "","",""],
-      "pic": "?.jpg"
+      "pic": "loca.jpg"
     },
     {
       "name": "Gym Park",
