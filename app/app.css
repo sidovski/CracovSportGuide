@@ -1,5 +1,5 @@
 body {
-	padding-top: 30px;
+	padding-top: 40px;
 }
 h1 {
   border-bottom: 1px solid gray;
@@ -7,6 +7,21 @@ h1 {
 
 ul {
 	list-style-type:none;
+}
+
+.fb-page{
+	margin-bottom: 20px;
+	width: auto;
+	min-width: 450px;
+}
+
+
+.titleEvent {
+	text-align: center;
+}
+
+.container-fluid {
+	margin-bottom: 30px;
 }
 
 .jumbotron {
@@ -22,10 +37,10 @@ input{
 	padding: 10px;
 }
 
-.row {
+#home {
 	/*background: url(https://pixabay.com/get/ef36b40628f21c22d9584518a349429ee673e7d304b0154890f9c970a0e5bd/runners-635906_1920.jpg);*/
 	background-color: black;
-	height: 300px;
+	height: 150px;
 }
 footer {
 
@@ -38,7 +53,7 @@ footer {
 	text-align: center;
 }
 .col-md-4 {
-	padding-top: 140px;
+	padding-top: 40px;
 }
 #som .col-md-4 {
 	padding-top: 15px;
@@ -51,7 +66,10 @@ footer {
 img {
 	width: 150px;
 	padding: 10px;
+}
 
+#events {
+	background-color: #CFCFCF;
 }
 
 .results {

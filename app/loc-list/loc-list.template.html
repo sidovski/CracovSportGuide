@@ -1,6 +1,6 @@
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
+  <div class="row" id="home">
+    
 
         <div class="col-md-4"></div>
           <div class="col-md-4">
@@ -10,8 +10,7 @@
          </div>
       <div class="col-md-4"></div>
 
-  </div>
-  </div>
+    </div>
   <div class="results" id="som">
       <div class="col-md-12">
           <div class="col-md-4 s"></div>
@@ -19,28 +18,11 @@
           <li ng-repeat="loc in $ctrl.locs | filter:$ctrl.query" class="thumbnail">
           <a href="#/locs/{{loc.id}}" class="thumb">
            <img ng-src="{{loc.pic}}" alt="{{loc.name}}" />
-<<<<<<< HEAD
+
         </a>
         <a href="#/locs/{{loc.id}}">{{loc.name}}</a>
         <p>{{loc.address}}</p>
-=======
-   		  </a>
-   		  <a href="#/locs/{{loc.id}}">{{loc.name}}</a>
-    		<p>{{loc.address}}</p>
->>>>>>> cbfbab213c9b6d8e155bef851b77b91bf1b7f52e
-              <!-- <div class="list">
-                <table>
-                  <tr>
-                    <td class="pic-col">
-                      <img src="{{loc.pic}}"/>
-                    </td>
-                    <td>
-                      <span><h2>{{loc.name}}</h2></span>
-                      <p>{{loc.address}}</p>
-                    </td>
-                  </tr>
-                </table>
-              </div> -->
+
           </li>
       </ul>
       <div class="col-md-4 s"></div>
