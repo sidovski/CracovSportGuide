@@ -1,20 +1,44 @@
 <div class="container-fluid">
   <div class="row" id="home">
-    
+  <div class="titleEvent">    
+<h1>Here you can obserev events in the most popular Krakow's groups online</h1>
+<h2>Be sure you do not miss anything</h2>
+</div>
+    <div class="col-md-12 events">
+          
 
-        <div class="col-md-4"></div>
-          <div class="col-md-4">
+<div class="col-md-8">
+  <div class="row">
+  
+<div class="fb-page col-md-4" data-href="https://www.facebook.com/KrakowskiParkour/" data-tabs="timeline" data-width="450" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/KrakowskiParkour/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KrakowskiParkour/">Krakowski Parkour</a></blockquote></div>
+
+<div class="fb-page col-md-4" data-href="https://www.facebook.com/PlywalniaUEK/?fref=ts" data-tabs="timeline" data-width="450" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/PlywalniaUEK/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PlywalniaUEK/?fref=ts">Basen hala sportowa i korty UEK</a></blockquote></div>
+
+<div class="fb-page col-md-4" data-href="https://www.facebook.com/StreetWorkoutKrakow/?fref=nf" data-tabs="timeline" data-width="450" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/StreetWorkoutKrakow/?fref=nf" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/StreetWorkoutKrakow/?fref=nf">Street Workout Kraków</a></blockquote></div>
+
+<div class="fb-page col-md-4" data-href="https://www.facebook.com/Platinium.Fitness/?fref=ts" data-tabs="timeline" data-width="450" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Platinium.Fitness/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Platinium.Fitness/?fref=ts">Platinium Fitness Club</a></blockquote></div>
+
+<div class="fb-page col-md-4" data-href="https://www.facebook.com/KrakowSport/?fref=ts" data-tabs="timeline" data-width="450" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/KrakowSport/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KrakowSport/?fref=ts">Kraków Sport</a></blockquote></div>
+
+<div class="fb-page col-md-4" data-href="https://www.facebook.com/KrakowRolkiIMy/?fref=ts" data-tabs="timeline" data-width="450" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/KrakowRolkiIMy/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KrakowRolkiIMy/?fref=ts">Kraków, Rolki i My</a></blockquote></div>
+
+
+
+</div>
+</div>
+<div class="col-md-4">
+<h3>Find your new location for traning</h3>
             <div class="jumbotron">
               <input ng-model="$ctrl.query" placeholder="Search..." />
             </div>
-         </div>
-      <div class="col-md-4"></div>
+         
+      
 
-    </div>
-  <div class="results" id="som">
-      <div class="col-md-12">
-          <div class="col-md-4 s"></div>
-      <ul ng-show="$ctrl.query"  class="col-md-4 locs">
+    
+ <div class="results" id="som">
+      
+          
+      <ul ng-show="$ctrl.query"  class="col-md-12 locs">
           <li ng-repeat="loc in $ctrl.locs | filter:$ctrl.query" class="thumbnail">
           <a href="#/locs/{{loc.id}}" class="thumb">
            <img ng-src="{{loc.pic}}" alt="{{loc.name}}" />
@@ -25,7 +49,10 @@
 
           </li>
       </ul>
-      <div class="col-md-4 s"></div>
-    </div>
+      
+    
   </div>
+</div>
+</div>
+</div>
 </div>

@@ -13,10 +13,11 @@ angular.
         when('/locs/:locId', {
           template: '<loc-detail></loc-detail>'
         }).
-        when('/events', {
-          templateUrl: 'events.html',
-          controller:'EventsCtrl'
-        }).
+
+        // when('/events', {
+        //   templateUrl: 'events.html'          
+        // }).
+
         otherwise('/locs');
     }
   ]);
