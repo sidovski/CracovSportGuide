@@ -1,3 +1,4 @@
+
 <img ng-src="{{$ctrl.mainImageUrl}}" class="loc" />
 
 <h1>{{$ctrl.loc.title}}</h1>
@@ -10,13 +11,15 @@
   </li>
 </ul>
 
+<div class="col-md-4">
+
 <ul class="specs">
    <li>
-    <span>Additional Info</span>
+    <span><b><h3>Additional Info:</h3></b></span>
     <dd>{{$ctrl.loc.additionalInfo}}</dd>
   </li>
   <li>
-    <span>Working time</span>
+    <span><b><h3>Working time:</h3></b></span>
     <dl>
       <dt>monday-friday</dt>
       <dd>{{$ctrl.loc.workingtime.monfri}}</dd>
@@ -26,31 +29,20 @@
   </li>
   <li>
  
-    <span>Price list</span>
-
-    
+    <span><b><h3>Price list</h3></b></span>
 
   </li>
 </ul>
 
-<ul>
+    <ul>
       <li ng-repeat="price in $ctrl.loc.prices">
         <span>{{price}}</span>
       </li>
     </ul>
-  <div id="google-maps">
-      <!-- // <script> 
-        function myMap() {
-        var mapProp= {
-            center:new google.maps.LatLng({{$ctrl.loc.maps.w}},{{$ctrl.maps.h}}),
-            zoom:5,
-        };
-        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-        </script>
+    </div>
 
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3ahLWXPI3CXnoqo2HHGmt6t_SetxBQ1Y&callback=myMap"></script>
--->
+
+  <!-- <div id="map"></div>
         <script>
       function initMap() {
         var uluru = {lat: {{$ctrl.loc.maps.w}}, lng: {{$ctrl.maps.h}}};
@@ -65,5 +57,4 @@
       }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3ahLWXPI3CXnoqo2HHGmt6t_SetxBQ1Y&callback=initMap">
-    </script>
-  </div>
+    </script> -->

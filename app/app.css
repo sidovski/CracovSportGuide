@@ -20,7 +20,8 @@ ul {
 
 .titleEvent {
 	text-align: center;
-	color: #F4F4F4;
+	color: #000;
+	padding-top: 220px;
 }
 
 .container-fluid {
@@ -41,9 +42,10 @@ input{
 }
 
 #home {
+	position: absolute;
 	background: url(https://www.iot-now.com/wp-content/uploads/campaigns/2017-3rdparty/Slaim/bg.jpg);
 	background-color: black;
-	height: 150px;
+	height: 200px;
 }
 footer {
 
@@ -83,7 +85,7 @@ img {
 
 .locs li {
   clear: both;
-  height: 115px;
+  height: 100px;
   padding-top: 15px;
 }
 
@@ -104,6 +106,11 @@ img {
   margin-right: 3em;
   padding: 0em;
   width: 400px;
+}
+
+#map {
+	height: 300px;
+	width: 400px;
 }
 
 .loc-thumbs {
