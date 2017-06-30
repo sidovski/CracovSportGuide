@@ -1,10 +1,17 @@
-body {
+﻿body {
 	padding-top: 40px;
-	background-color: #CFCFCF;
+	background-color: #e7e7e7;
 }
 
 ul {
 	list-style-type:none;
+}
+nav{
+
+	width: 100%;
+	margin-top:0px;
+	valign: top;
+	
 }
 
 .events {
@@ -55,6 +62,7 @@ footer {
 	font-family: Arial;
 	font-size: 11px;
 	padding-top: 10px;
+	margin-top: 30px;
 	text-align: center;
 }
 .col-md-4 {

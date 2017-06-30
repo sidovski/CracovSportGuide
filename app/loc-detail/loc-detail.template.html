@@ -1,6 +1,8 @@
-
-<img ng-src="{{$ctrl.mainImageUrl}}" class="loc" />
-
+﻿<div style="margin-bottom:40px" id="detemp">
+<div class="col-md-10">
+<div class="col-md-5"><img ng-src="{{$ctrl.mainImageUrl}}" class="loc" />
+</div>
+<div class="col-md-4">
 <h1>{{$ctrl.loc.title}}</h1>
 
 <p>{{$ctrl.loc.address}}</p>
@@ -10,51 +12,31 @@
     <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)"/>
   </li>
 </ul>
-
-<div class="col-md-4">
-
-<ul class="specs">
-   <li>
-    <span><b><h3>Additional Info:</h3></b></span>
-    <dd>{{$ctrl.loc.additionalInfo}}</dd>
-  </li>
-  <li>
-    <span><b><h3>Working time:</h3></b></span>
-    <dl>
+</div>
+<div class="col-md-1"></div>
+</div>
+<div class="col-md-10">
+<div class="col-md-5">
+<h2>Additional Info:</h2>
+{{$ctrl.loc.additionalInfo}}
+<h2>Working time:</h2>
+<dl>
       <dt>monday-friday</dt>
       <dd>{{$ctrl.loc.workingtime.monfri}}</dd>
       <dt>saturday-sunday</dt>      
       <dd>{{$ctrl.loc.workingtime.satsun}}</dd>
-    </dl>
-  </li>
-  <li>
- 
-    <span><b><h3>Price list</h3></b></span>
-
-  </li>
-</ul>
-
+</dl>
+</div>
+<div class="col-md-4">
+ <h2 style="margin-top:0px; vertical-align:top">Price list</h2>
     <ul>
       <li ng-repeat="price in $ctrl.loc.prices">
         <span>{{price}}</span>
       </li>
-    </ul>
-    </div>
-
-
-  <!-- <div id="map"></div>
-        <script>
-      function initMap() {
-        var uluru = {lat: {{$ctrl.loc.maps.w}}, lng: {{$ctrl.maps.h}}};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 10,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3ahLWXPI3CXnoqo2HHGmt6t_SetxBQ1Y&callback=initMap">
-    </script> -->
+      <li>&nbsp;</li>
+    </ul> 
+</div>	
+<div class="col-md-1"></div>
+</div>
+<div class="col-md-8">&nbsp;</div>
+</div>
